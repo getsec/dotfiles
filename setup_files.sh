@@ -12,7 +12,7 @@ FILES=$(cat << EOF
 EOF
 )
 
-
+# Copy file content and sync
 while IFS= read -r file; do
     SRC_FILE=$HOME/$file
     if [ -f "$SRC_FILE" ]; then
