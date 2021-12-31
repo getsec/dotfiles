@@ -5,6 +5,7 @@ FILES=$(cat << EOF
 .zshrc
 .aliases
 .functions
+.tmux/.tmux.conf
 .tmux.conf
 .config/nvim/init.vim
 .config/alacritty/alacritty.yml
