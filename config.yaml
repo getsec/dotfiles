@@ -1,0 +1,20 @@
+config:
+  backup: true
+  create: true
+  dotpath: dotfiles
+dotfiles:
+  f_tmux.conf:
+    src: tmux.conf
+    dst: ~/.tmux.conf
+  d_alacritty:
+    src: config/alacritty
+    dst: ~/.config/alacritty
+  d_nvim:
+    src: config/nvim
+    dst: ~/.config/nvim
+profiles:
+  nate-pc:
+    dotfiles:
+    - f_tmux.conf
+    - d_alacritty
+    - d_nvim
