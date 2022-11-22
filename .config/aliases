@@ -1,0 +1,12 @@
+alias gck='git checkout'
+alias gs='git status'
+alias gr='git remote'
+alias gc='git commit '
+alias grb='git rebase '
+alias gb='git branch'
+alias lw='lacework '
+alias ecslogs='ecs logs --follow --task-id '
+
+alias ll='ls -lh --group-directories-first'
+alias vim=nvim
+alias la='ls -lah --group-directories-first'
